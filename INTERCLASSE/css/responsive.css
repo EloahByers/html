@@ -1,0 +1,151 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1320px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_main {
+        margin: 0 151px;
+    }
+    .club_btn .read_more {
+        max-width: 296px;
+    }
+    .poa_t {
+        padding: 0 30px;
+    }
+    .menu_bottom li {
+        padding: 0 26px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_main {
+        margin: 0 151px;
+    }
+    .poa_t {
+        padding: 0 30px;
+    }
+    .footbol {
+        margin-top: -126px;
+    }
+    .club figure img {
+        height: 354px;
+    }
+    .club_btn .read_more {
+        max-width: 220px;
+    }
+    .conta ul li {
+        padding-right: 25px;
+    }
+    .conta ul li a img {
+        padding-right: 5px;
+    }
+    .menu_bottom li {
+        padding: 0 11px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    header {
+        position: inherit;
+        background: #fff;
+    }
+    .banner_main {
+        margin: 0;
+    }
+    .sm_n0 {
+        display: none;
+    }
+    .tes_n0 {
+        display: inherit;
+    }
+    .poa_t {
+        padding: 0 30px;
+    }
+    .sports_main {
+        margin-bottom: 30px;
+    }
+    .club_btn .read_more {
+        max-width: 174px;
+        height: 64px;
+        line-height: 64px;
+        margin: 0 4px;
+    }
+    .menu_bottom li {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        position: inherit;
+        background: #fff;
+    }
+    .d_none {
+        display: none !important;
+    }
+    .email {
+        padding-top: 0 !important;
+        margin-top: -44px;
+    }
+    .logo {
+        display: block;
+        width: 144px;
+        float: left;
+    }
+    .banner_main {
+        margin: 0;
+    }
+    .sm_n0 {
+        display: none;
+    }
+    .tes_n0 {
+        display: inherit;
+    }
+    .poa_t {
+        padding: 0 30px;
+        top: 58px;
+    }
+    .club h1 {
+        font-size: 37px;
+    }
+    .sports_main {
+        margin-bottom: 30px;
+    }
+    .club figure img {
+        height: 276px;
+    }
+    .footbol {
+        margin-top: -33px;
+    }
+    .dorder {
+        border: #1f1d45 solid 10px;
+    }
+    .foot_img {
+        max-width: 260px;
+        padding: 23px 0 9px 0;
+    }
+    .abo_btn a img {
+        width: 100px;
+    }
+    .titlepage h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .club_btn .read_more {
+        margin-top: 5px;
+    }
+    .footer {
+        background: #070808;
+    }
+    .conta {
+        text-align: left;
+    }
+    .menu_bottom li {
+        padding: 0px 3px;
+    }
+    .menu_bottom ul li a {
+        font-size: 14px;
+    }
+}
