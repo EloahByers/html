@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div id="principal">
+        <h1 id="titulo">Pedra Papel e Tesoura</h1> <br>
+        <div id="placar">
+            <div id="jogador">
+                <h2 id="jogadorNome">Jogador</h2>
+                <p id="jogadorPontos">0</p>
+                <ul id="jogadorEscolha">
+                    <li>
+                        <a id="jogadorEscolha1" onclick="jogar(1)"> <img src="pedra.PNG" alt="Imagem da Pedra"></a>
+                    </li>
+                    <li>
+                        <a id="jogadorEscolha2" onclick="jogar(2)"> <img src="papel.PNG" alt="Imagem do Papel"></a>
+                    </li>
+                    <li>
+                        <a id="jogadorEscolha3" onclick="jogar(3)"> <img src="tesoura.PNG" alt="Imagem da Tesoura"></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="versus">VS</div>
+            <div id="computador">
+                <h2 id="computadorNome">Computador</h2>
+                <p id="computadorPontos">0</p>
+                <ul id="computadorEscolha">
+                    <li>
+                        <a id="computadorEscolha1" > <img src="pedra.PNG" alt="Imagem da Pedra"></a>
+                    </li>
+                    <li>
+                        <a id="computadorEscolha2" > <img src="papel.PNG" alt="Imagem do Papel"></a>
+                    </li>
+                    <li>
+                        <a id="computadorEscolha3" > <img src="tesoura.PNG" alt="Imagem da Tesoura"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="mensagem">&nbsp;</div>
+    </div>
+
+</body>
+</html>
